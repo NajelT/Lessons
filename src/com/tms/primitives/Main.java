@@ -1,5 +1,4 @@
 package com.tms.primitives;
-
 public class Main {
     public static void main(String[] args) {
         //1ЗАДАНИЕ
@@ -26,8 +25,7 @@ public class Main {
             System.out.println(z + " сотен "+ a + " десятков");
         } else if (x < 100) {
             a = x / 10;
-            System.out.println(a + " десятков");
-        }
-        System.out.println("End");
+            System.out.println(a + " десятков");}
+        System.out.println("Goodbye!");
     }
 }
