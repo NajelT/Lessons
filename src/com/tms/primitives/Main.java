@@ -28,6 +28,7 @@ public class Main {
             a = x / 10;
             System.out.println(a + " десятков");
         }
-        System.out.println("End");
+        System.out.println("Goodbye!");
+
     }
 }
