@@ -32,6 +32,7 @@ public class conditions {
                 break;
             default:
                 System.out.println("Пока, парень!");
+                System.out.println("До встречи!");
         }
     }
 }
