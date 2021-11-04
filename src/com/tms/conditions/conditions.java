@@ -32,6 +32,9 @@ public class conditions {
                 break;
             default:
                 System.out.println("Goodbye!");
+                System.out.println("See you later!");
         }
+        System.out.println("Goodbye!");
+        System.out.println("See you later!");
     }
 }
