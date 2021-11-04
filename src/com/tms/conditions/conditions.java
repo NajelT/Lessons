@@ -31,7 +31,7 @@ public class conditions {
                 System.out.println("А буквочка то согласная!");
                 break;
             default:
-                System.out.println("Exit");
+                System.out.println("Goodbye!");
         }
     }
 }
