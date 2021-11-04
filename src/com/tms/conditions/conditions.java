@@ -30,9 +30,6 @@ public class conditions {
             case"m":
                 System.out.println("А буквочка то согласная!");
                 break;
-            default:
-                System.out.println("Goodbye!");
-                System.out.println("See you later!");
         }
         System.out.println("Goodbye!");
         System.out.println("See you later!");
