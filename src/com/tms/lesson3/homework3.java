@@ -12,7 +12,7 @@ for(int i=0;i<arr.length;i++){
     if (i%2==0){
         sumeven = sumeven + arr[i];}
 
-    else if (!(i%2==0)){
+    else {
         sumuneven+=arr[i];}}
 
         System.out.println("Сумма чисел, стоящих на четных местах = "+sumeven);
