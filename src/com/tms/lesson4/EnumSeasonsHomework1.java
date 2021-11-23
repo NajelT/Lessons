@@ -3,27 +3,14 @@ package com.tms.lesson4;
 public class EnumSeasonsHomework1 {
     public static void main(String[] args) {
 
-        EnumMonth month = EnumMonth.SEPTEMBER;
+        ENUMMONTH month = ENUMMONTH.SEPTEMBER;
         switch (month)
         {
-            case JUNE:
-                System.out.println(EnumSeasons.SUMMER);
+            case JUNE: case JULY: case AUGUST:
+                System.out.println(ENUMSEASONS.SUMMER);
                 break;
-            case JULY:
-                System.out.println(EnumSeasons.SUMMER);
-                break;
-            case AUGUST:
-                System.out.println(EnumSeasons.SUMMER);
-                break;
-
-            case SEPTEMBER:
-                System.out.println(EnumSeasons.AUTUMN);
-                break;
-            case OCTOBER:
-                System.out.println(EnumSeasons.AUTUMN);
-                break;
-            case NOVEMBER:
-                System.out.println(EnumSeasons.AUTUMN);
+            case SEPTEMBER: case OCTOBER: case NOVEMBER:
+                System.out.println(ENUMSEASONS.AUTUMN);
                 break;
         }
     }

@@ -13,26 +13,23 @@ public class User {
         this.gender=gender;
     }
 
-    public static class adress {
+    public static class Adress {
         private final String country;
         private final String city;
 
-        public adress(String country, String city) {
+        public Adress(String country, String city) {
             this.country = country;
             this.city = city;
         }
     }
 
     public void addAdress(){
-        adress adress= new adress("Belarus", "Novopolotsk");
+        Adress adress= new Adress("Belarus", "Novopolotsk");
         System.out.println(adress.country+adress.city);
     }
 
     public String ReturnName() {
-        this.name="Alex";
-        this.secondName="Scream";
-        String s=this.name+this.secondName;
-        return s;
+        return this.name+this.secondName;
     }
 
 
@@ -46,6 +43,5 @@ public class User {
 
     public void Out(){
         System.out.println(this.name+ this.secondName+ this.age+ this.gender);
-        addAdress();
     }
 }

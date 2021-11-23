@@ -1,6 +1,6 @@
 package com.tms.lesson4;
 
-public enum EnumMonth {
+public enum ENUMMONTH {
     JUNE,
     JULY,
     AUGUST,

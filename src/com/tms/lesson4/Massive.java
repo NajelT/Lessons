@@ -10,16 +10,16 @@ public class Massive {
         this.massive=massive;
     }
 
-    public void MassMaxEl(int[] arr){
+    public void massMaxElFind(int[] arr){
         int max=0;
-        for(int i=0;i< arr.length;i++){
-            if (arr[i]>max){
-                max=arr[i];
+        for (int j : arr) {
+            if (j > max) {
+                max = j;
             }
         }
         System.out.println(max);
     }
-    public void  MassSort(int[] arr) {
+    public void massSort(int[] arr) {
         for (int j = 0; j < arr.length; j++) {
             for (int i = 0; i < arr.length - 1; i++) {
                 int left = arr[i];

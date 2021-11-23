@@ -1,6 +1,6 @@
 package com.tms.lesson4;
 
-public enum EnumSeasons {
+public enum ENUMSEASONS {
     SUMMER,
     AUTUMN
 }
