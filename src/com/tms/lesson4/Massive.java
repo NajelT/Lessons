@@ -5,11 +5,9 @@ import java.util.Arrays;
 public class Massive {
 
     public int[] massive;
-
     public Massive(int[] massive){
         this.massive=massive;
     }
-
     public void massMaxElFind(int[] arr){
         int max=0;
         for (int j : arr) {
@@ -32,5 +30,4 @@ public class Massive {
         }
         System.out.println(Arrays.toString(arr));
     }
-
 }
