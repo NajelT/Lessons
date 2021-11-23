@@ -1,9 +1,6 @@
 package com.tms.lesson4;
-
 import java.util.Arrays;
-
 public class Massive {
-
     public int[] massive;
     public Massive(int[] massive){
         this.massive=massive;

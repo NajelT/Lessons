@@ -31,9 +31,6 @@ public class User {
     public String ReturnName() {
         return this.name+this.secondName;
     }
-
-
-
     @Deprecated
     public void IncreaseAge100(){this.age+=100;}
 
