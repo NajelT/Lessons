@@ -10,13 +10,13 @@ public class Main {
         User user1=new User("Evgeny","Filipenko",29,MALE);
         User user2=new User("Anna","Ruma",32,FEMALE);
         User user3=new User("Alex","Scream",1,MALE);
-        user2.IncreaseAge1();
-        user3.IncreaseAge100();
-        String user4=user3.ReturnName();
+        user2.increaseAge1();
+        user3.increaseAge100();
+        String user4=user3.returnName();
         System.out.println(user4);
         user1.addAdress();
-        user1.Out();
-        user2.Out();
-        user3.Out();
+        user1.out();
+        user2.out();
+        user3.out();
     }
 }

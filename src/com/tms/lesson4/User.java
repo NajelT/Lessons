@@ -28,17 +28,17 @@ public class User {
         System.out.println(adress.country+adress.city);
     }
 
-    public String ReturnName() {
+    public String returnName() {
         return this.name+this.secondName;
     }
     @Deprecated
-    public void IncreaseAge100(){this.age+=100;}
+    public void increaseAge100(){this.age+=100;}
 
-    public void IncreaseAge1(){
+    public void increaseAge1(){
         this.age+=1;
     }
 
-    public void Out(){
+    public void out(){
         System.out.println(this.name+ this.secondName+ this.age+ this.gender);
     }
 }
