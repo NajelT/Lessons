@@ -8,19 +8,19 @@ public abstract class Employee extends Person{
     }
 
     public String getInfo(){
-        getName();
-        return ("Опыт - "+ this.getExperienceYears()+" (Years). Зарплата - "+Salary() +"$" );
+        getNameSecondName();
+        int salary=getSalary();
+        return ("Опыт - "+ this.getExperienceYears()+" (Years). Зарплата - "+ salary +"$" );
     }
 
-    private final int experienceYears;
-
+    private int experienceYears;
 
     public Employee(String name, String secondName,int experienceYears) {
         super(name, secondName);
         this.experienceYears=experienceYears;
     }
 
-    public abstract int Salary();
+    public abstract int getSalary();
 
-    public abstract void post();
+    public abstract void outPost();
 }

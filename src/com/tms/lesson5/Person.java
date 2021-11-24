@@ -8,11 +8,11 @@ public class Person{
         this.name=name;
         this.secondName=secondName;
     }
-    public void getName(){
+    public void getNameSecondName(){
         System.out.println(name + " " + secondName);
     }
 
-    public String GetName(){
+    public String getName(){
         return name;
     }
 }

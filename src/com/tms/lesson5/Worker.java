@@ -3,7 +3,7 @@ package com.tms.lesson5;
 public class Worker extends Employee{
 
     @Override
-    public void post() {
+    public void outPost() {
         post=POST.WORKER;
         System.out.println("Занимаемая должность - "+post);
     }
@@ -13,14 +13,7 @@ public class Worker extends Employee{
     }
 
     @Override
-    public int Salary() {
-        post();
-        int salary;
-        if(getExperienceYears()==0){
-            salary =1000;
-        } else {
-            salary = 1000 * post.getCoef() * getExperienceYears();
-        }
-        return salary;
+    public int getSalary() {
+        return getExperienceYears()==0?1000:1000 * POST.WORKER.getCoef() * getExperienceYears();
     }
 }
